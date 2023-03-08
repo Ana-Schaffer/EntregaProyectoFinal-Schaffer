@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,34 +11,48 @@
     <meta name="copyright" content="Reni nails">
     <meta property="og: title" content="Reni nails">
     <meta property="og: description" content="Spa manicure, pedicure">
-    <title>Reni nails-inicio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <title>Reni nails-inicio</title>
 </head>
 <body>
-    <header class="header-promocion">
-        <img src="./assets/img/Logo.jpg" class="logo" alt="logo del local" style="width: 100px;">
-        <input type="checkbox" id="check">
-        <label for="check" class="mostrar-menu">
-            &#8801
-        </label>
-        <nav class="menu">
-            <a href="./index.html">Inicio</a>
-            <a href="./pages/servicios.html">Servicios</a>
-            <a href="./pages/promos.html">Promos</a>
-            <a href="./pages/turnos.html">Turnos</a>
-            <a href="./pages/contacto.html">Contacto</a>
-            <a href=""><img src="./assets/img/whatsapp (1).png" class="mr-2">Escribenos</a>
-            <label for="check" class="esconder-menu">
-                &#215
-            </label>
-        </nav>
-</header>
-
+<!--Header-->
+<nav class="navbar navbar-expand-md bg">
+    <img src="./assets/img/Logo.jpg" class="logo fs-5 ms-5" alt="logo del local" style="width: 100px;">
+<button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+    <i class='bx bx-menu bx-md'></i>
+</button>
+<div class="collapse navbar-collapse ul-bg" id="btn">
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a href="./index.html" class="nav-link mx-5 fs-6">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a href="./pages/servicios.html" class="nav-link mx-5 fs-6">Servicios</a>
+        </li>
+        <li class="nav-item">
+            <a href="./pages/promos.html" class="nav-link mx-5 fs-6">Promos</a>
+        </li>
+        <li class="nav-item">
+            <a href="./pages/turnos.html" class="nav-link mx-5 fs-6">Turnos</a>
+        </li>
+        <li class="nav-item">
+            <a href="./pages/contacto.html" class="nav-link mx-5 fs-6">Contacto</a>
+        </li>
+    </ul>
+</div>
+</nav>
+<!--section one-->
         <section class="banner d-flex justify-content-end align-items-end">
                 <div>
                     <a href="./pages/servicios.html" type="button" class="btn btn-outline-dark mb-5" style="padding-left: 5px;">Nuestros Servicios</a>
                 </div>
+        </section>
+        <!--section two-->
+        <section id="servicios">
+            <h1>SPA DE MANOS Y PIES</h1>
         </section>
             <section id="servicios">
                 <div>
@@ -53,6 +68,7 @@
                         <p class="text-center mt-2">Esmaltado</p>
                     </div>
             </section>
+            <!--section three-->
         <section>
             <div>
                 <div class="marcas-container d-flex justify-content-around align-items-center">
@@ -61,7 +77,6 @@
                 </div>
             </div>
         </section>
-
     <footer class="footer">
         <div class="w-100 d-flex justy-content-between py-5">
             <div class="ml-5 w-50 align-items-center">
@@ -69,10 +84,10 @@
                     <a href=""><img src="./assets/img/facebook (1).png" alt="icono de red social facebook">@reninails</a>
                 </div>
                 <div>
-                    <a href=""><img src="./assets/img/instagram (1).png" alt="icono red social instagram">@reninails</a>
+                    <a href="https://instagram.com/reniii.nails?igshid=YmMyMTA2M2Y="><img src="./assets/img/instagram (1).png" alt="icono red social instagram">@reninails</a>
                 </div>
                 <div>
-                    <a href=""><img src="./assets/img/whatsapp (1).png" alt="icono mesajeria whatsapp">+5491134171760</a>
+                    <a href="https://wa.me/qr/LDOWNAYKCG3FJ1"><img src="./assets/img/whatsapp (1).png" alt="icono mesajeria whatsapp">+5491134171760</a>
                 </div>
                 
             </div>
@@ -87,5 +102,10 @@
             </div>
         </div>
     </footer>
+            <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

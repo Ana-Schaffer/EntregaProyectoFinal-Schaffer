@@ -1,88 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+    <head>
+        <style>
+            ul li{
+                list-style-type: none;
+            }
+        </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contactanos por Instagram, facebook, whatsapp, email,"> 
-    <title>Reni nails-contacto</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <header class="header-promocion">
-        <img src="../assets/img/Logo.jpg" class="logo" alt="logo del local" style="width: 100px;">
-        <input type="checkbox" id="check">
-        <label for="check" class="mostrar-menu">
-            &#8801
-        </label>
-        <nav class="menu">
-            <a href="../index.html">Inicio</a>
-            <a href="./servicios.html">Servicios</a>
-            <a href="./promos.html">Promos</a>
-            <a href="./turnos.html">Turnos</a>
-            <a href="./contacto.html">Contacto</a>
-            <a href=""><img src="../assets/img/whatsapp (1).png" class="mr-2">Escribenos</a>
-            <label for="check" class="esconder-menu">
-                &#215
-            </label>
-        </nav>
-</header>
-
-
-    <main class="contactenos">
-    <div class="content">
-        <div class="contact-wrapper">
-            <div class="contact-form">
-                <h2>Contactenos</h2>
-                <form action="">
-                    <p class="p-contacto">
-                        <label>Nombre completo</label>
-                        <input type="text" name="Nombre completo">
-                    </p>
-                    <p class="p-contacto">
-                        <label>Email</label>
-                        <input type="email" name="email">
-                    </p>
-                    <p class="p-contacto">
-                        <label>Teléfono</label>
-                        <input type="tel" name="telefono">
-                    </p>
-                    <p class="p-contacto">
-                        <label>Asunto</label>
-                        <input type="text" name="asunto">
-                    </p>
-                    <p class="block">
-                        <label class="block">Mensaje</label>
-                        <textarea name="mensaje" rows="3"></textarea>
-                    </p>
-                    <p class="block">
-                        <button type="submit">
-                        Enviar
-                        </button>
-                    </p>
-                </form>
-            </div>
-            <div class="contact-info">
-                <h3>Más información</h3>
-                <ul>
-                    <li><i class="fa-regular fa-location-dot"><img src="../assets/img/gps.png" alt="" width="20px" height="20"> </i>Belgrano street</li>
-                    <li><i class="fa-phone"><img src="../assets/img/telefono (1).png" alt="" width="20px" height="20px"></i>+5491134171760</li>
-                    <li><i class="fa-envelope-opne-text"><img src="../assets/img/correo-electronico.png" alt="" width="20px" height="20px"></i>reninails2022@gmail.com</li>
-                </ul>
-                <p class="p-contacto">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum dolore explicabo nostrum perspiciatis totam necessitatibus iusto molestiae ex adipisci.
-                </p>
-                <p class="p-contacto">Company.com</p>
-
-            </div>
-
-        </div>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Reni nails-contacto</title>
+    </head>
+    <body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-md bg">
+        <img src="../assets/img/Logo.jpg" class="logo fs-5 ms-5" alt="logo del local" style="width: 100px;">
+    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+        <i class='bx bx-menu bx-md'></i>
+    </button>
+    <div class="collapse navbar-collapse ul-bg" id="btn">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link mx-5 fs-6">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a href="./servicios.html" class="nav-link mx-5 fs-6">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a href="./promos.html" class="nav-link mx-5 fs-6">Promos</a>
+            </li>
+            <li class="nav-item">
+                <a href="./turnos.html" class="nav-link mx-5 fs-6">Turnos</a>
+            </li>
+            <li class="nav-item">
+                <a href="./contacto.html" class="nav-link mx-5 fs-6">Contacto</a>
+            </li>
+        </ul>
     </div>
-    </main>
-
+</nav>
+    <!--main-->
+        <div class="container contact-form">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Más información</h1>
+                    <div class="contac-info">
+                        <ul>
+                            <li><img src="../assets/img/gps.png" style="width: 20px; height: 20px;" alt="">Belgrano 566 Gral Rodriguez</li>
+                            <li><img src="../assets/img/telefono (1).png" style="width: 20px; height: 20px;" alt="">1164975539</li>
+                            <li><img src="../assets/img/correo-electronico.png" style="width: 20px; height: 20px;" alt="">reninails2022@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Mensaje</label>
+                        <textarea class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--footer-->
     <footer>
-        <div class="w-100 d-flex justy-content-between py-5">
+        <div class="footer-nails w-100 d-flex justy-content-between py-5">
             <div class="ml-5 w-50 align-items-center">
                 <div>
                     <a href=""><img src="../assets/img/facebook (1).png" alt="">@reninails</a>
@@ -106,5 +104,8 @@
             </div>
         </div>
     </footer>
+        <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
